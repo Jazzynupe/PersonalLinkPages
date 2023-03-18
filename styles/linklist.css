@@ -1,0 +1,130 @@
+body {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    color: black;
+    background-color: #EDE8C4;
+    background-image: url('../images/20180302_132434.jpg');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-size:100%; */
+
+    vertical-align: top;
+    justify-content: center;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    margin: 20px 10px;
+    width: 75%;
+    padding: 10px;
+    border-width: 5px 5px;
+    border-radius: 15px;
+    border-color: #A70240;
+    border-style: solid;
+    background-color: #EDE8C4;
+    opacity: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    display:flex;
+    word-wrap: normal;
+    flex-wrap: wrap;
+    /* vertical-align:text-top; */
+    
+    text-align: center;
+    /* align-content: center;
+    align-items: center; */
+    justify-content: center;
+}
+
+h1{
+clear:both;
+align-self: center;
+}
+
+.profilepic{
+    display: inline;
+    width:auto;
+    height:auto;
+    vertical-align: middle;
+    margin: 10px;
+}
+.categorypic{
+    display: inline;
+    width:150px;
+    height:150px;
+    vertical-align: middle;
+    margin: 10px 50px;
+    border-width: 5px 5px;
+    border-radius: 10px;
+    border-color:green;
+    border-style: solid;
+}
+
+.featuresize{
+    clear:both;
+    display:block;
+    max-width:unset
+}
+
+section {
+    margin: 20px 10px;
+    color: black;
+    width: 75%;
+    padding: 10px;
+    text-align: match-parent;
+    border-width: 5px 5px;
+    border-radius: 15px;
+    border-color: #A70240;
+    border-style: solid;
+    background-color: #EDE8C4;
+    opacity: 75%;
+    vertical-align:top;
+    
+    height: fit-content;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+section nav a,section nav button,.linkbutton {
+    position: inherit;
+    text-align: match-parent;
+    padding: 10px;
+
+display:block;
+border-width: 2px 2px;
+border-style: solid;
+    border-radius: 5px;
+
+    background-color:#A70240;
+    text-decoration: none;
+    color:white;
+
+    margin: 5px 5px;
+}
+
+section nav a:hover,section nav button:hover {
+    color:black;
+    background-color: white;
+border-color:#A70240;
+text-decoration:underline;
+}
+
+section nav a img,section nav button img,.linkimage {
+    visibility: hidden;
+    display: inline;
+    width:25px;
+    height:25px;
+    vertical-align: middle;
+    
+}
+section nav a:hover img,section nav button:hover img {
+    display:inline;
+    visibility:visible;
+
+}
